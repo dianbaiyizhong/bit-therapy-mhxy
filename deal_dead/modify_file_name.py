@@ -2,7 +2,7 @@ import os
 
 folder = '../deal_dead'
 file_list = os.listdir(folder)
-bb_type = '105GhostGeneral'
+bb_type = 'vampire'
 cmd_path = os.getcwd()
 print(cmd_path)
 for file_name in file_list:

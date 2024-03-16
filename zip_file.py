@@ -1,7 +1,8 @@
 import os
 import shutil
 
-folder = '105GhostGeneral'
+# folder = '105GhostGeneral'
+folder = 'vampire'
 
 
 def compress_folder_to_zip(folder_path, zip_path):

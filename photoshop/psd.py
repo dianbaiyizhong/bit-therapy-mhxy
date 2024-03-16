@@ -3,9 +3,9 @@ import shutil
 
 from psd_tools.api.layers import Layer
 
-bb_type = '105GhostGeneral'
-psd = PSDImage.open(r'../105GhostGeneral/105GhostGeneral.psd')
-dept_num = 9
+bb_type = 'vampire'
+psd = PSDImage.open('../{}/{}.psd'.format(bb_type, bb_type))
+dead_num = 8
 
 
 def extract_layer_image(layer: Layer):
@@ -13,12 +13,12 @@ def extract_layer_image(layer: Layer):
         if 'front' in layer.name:
             image = layer.composite(viewport=(0, 0, 160, 160))
         else:
-            image = layer.composite(viewport=(0, 0, 314, 314))
+            image = layer.composite(viewport=(0, 0, 192, 192))
         image.save(str('../{}/' + layer.name + '.png').format(bb_type))
-        if 'dead' in layer.name and str('-' + str(dept_num)) in layer.name:
+        if 'dead' in layer.name and str('-' + str(dead_num)) in layer.name:
             path = str('../{}/' + layer.name + '.png').format(bb_type)
-            for i in range(dept_num, dept_num + 36):
-                shutil.copy(path, path.replace(str('-' + str(dept_num)), str('-' + str(dept_num + i))))
+            for i in range(dead_num, dead_num + 36):
+                shutil.copy(path, path.replace(str('-' + str(dead_num)), str('-' + str(dead_num + i))))
 
 
 if __name__ == "__main__":

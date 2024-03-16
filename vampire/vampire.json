@@ -16,6 +16,11 @@
       "requiredLoops": 5
     },
     {
+      "id": "magic",
+      "position": "fromEntityBottomLeft",
+      "requiredLoops": 5
+    },
+    {
       "id": "dead",
       "position": "fromEntityBottomLeft",
       "requiredLoops": 1
@@ -39,10 +44,10 @@
   "fps": 10,
   "zIndex": 0,
   "tags": [
-    "梦幻西游-105"
+    "梦幻西游-95"
   ],
-  "id": "105GhostGeneral",
+  "id": "vampire",
   "movementPath": "walk",
   "speed": 0.8,
-  "scale": 3.5
+  "scale": 2
 }
