@@ -1,0 +1,48 @@
+{
+  "animations": [
+    {
+      "id": "standby",
+      "position": "fromEntityBottomLeft",
+      "requiredLoops": 5
+    },
+    {
+      "id": "attack",
+      "position": "fromEntityBottomLeft",
+      "requiredLoops": 5
+    },
+    {
+      "id": "magic",
+      "position": "fromEntityBottomLeft",
+      "requiredLoops": 5
+    },
+    {
+      "id": "dead",
+      "position": "fromEntityBottomLeft",
+      "requiredLoops": 1
+    }
+  ],
+  "capabilities": [
+    "AnimatedSprite",
+    "AnimationsProvider",
+    "AutoRespawn",
+    "Draggable",
+    "FlipHorizontallyWhenGoingLeft",
+    "Gravity",
+    "LinearMovement",
+    "PetsSpritesProvider",
+    "AnimationsScheduler",
+    "Rotating",
+    "RandomPlatformJumper",
+    "ShowsMenuOnRightClick"
+  ],
+  "dragPath": "drag",
+  "fps": 10,
+  "zIndex": 0,
+  "tags": [
+    "梦幻西游-75"
+  ],
+  "id": "fr",
+  "movementPath": "fly",
+  "speed": 0.8,
+  "scale": 2
+}

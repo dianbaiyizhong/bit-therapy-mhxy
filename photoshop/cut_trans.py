@@ -5,7 +5,7 @@ from PIL import Image
 from photoshop.photoshop_util import PhotoshopUtil
 
 if __name__ == '__main__':
-    folder = '../105GhostGeneral'
+    folder = '../ghost_general'
     file_list = os.listdir(folder)
     width_list = list()
     height_list = list()

@@ -1,0 +1,48 @@
+{
+  "animations": [
+    {
+      "id": "standby",
+      "position": "fromEntityBottomLeft",
+      "requiredLoops": 5
+    },
+    {
+      "id": "attack",
+      "position": "fromEntityBottomLeft",
+      "requiredLoops": 5
+    },
+    {
+      "id": "attackSecond",
+      "position": "fromEntityBottomLeft",
+      "requiredLoops": 5
+    },
+    {
+      "id": "dead",
+      "position": "fromEntityBottomLeft",
+      "requiredLoops": 1
+    }
+  ],
+  "capabilities": [
+    "AnimatedSprite",
+    "AnimationsProvider",
+    "AutoRespawn",
+    "BounceOnLateralCollisions",
+    "Draggable",
+    "FlipHorizontallyWhenGoingLeft",
+    "Gravity",
+    "LinearMovement",
+    "PetsSpritesProvider",
+    "AnimationsScheduler",
+    "Rotating",
+    "ShowsMenuOnRightClick"
+  ],
+  "dragPath": "drag",
+  "fps": 10,
+  "zIndex": 0,
+  "tags": [
+    "梦幻西游-105"
+  ],
+  "id": "ghost_general",
+  "movementPath": "walk",
+  "speed": 0.8,
+  "scale": 3.5
+}

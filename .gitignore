@@ -3,3 +3,8 @@
 *.zip
 .DS_Store
 __pycache__
+fr/*.png
+ts/*.png
+vampire/*.png
+ghost_general/*.png
+deal_dead/*.png
